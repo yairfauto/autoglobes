@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Globes Automation">
+
+ <listeners>
+            <listener class-name= "config.Listener"/>
+            <listener class-name= "config.ExtentTestNGITestListener"/>
+            
+   </listeners>
+            
+  <test  name="sanity">
+   <classes>
+                        <class name="com.yair_f.globesweb.LoginTest1"/>
+                        <class name="com.yair_f.globesweb.LogOutTest2"/>
+                        <class name="com.yair_f.globesweb.GoogleLoginTest3"/>
+                        <class name="com.yair_f.globesweb.RegisterToGlobesTest4"/>
+                        <class name="com.yair_f.globesweb.ForgotPasswordTest5"/>
+                        <class name="com.yair_f.globesweb.FacebookLoginTest6"/>
+                        <class name="com.yair_f.globesweb.AddArticleToSaveListTest7"/>
+                        <class name="com.yair_f.globesweb.ElectronicNewsPaperTest8"/>
+                        <class name="com.yair_f.globesweb.ShareMainArticleToFbTest9"/>
+                        <class name="com.yair_f.globesweb.SubscribeToTevaTagitTest10"/>
+                        <class name="com.yair_f.globesweb.WrongPasswordTest11"/>
+                    
+                </classes>
+       </test> 
+
+</suite> 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

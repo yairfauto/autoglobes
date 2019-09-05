@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Globes Automation]">
+  <listeners>
+    <listener class-name="config.Listener"/>
+    <listener class-name="config.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="5" name="sanity(failed)">
+    <classes>
+      <class name="com.yair_f.globesweb.GoogleLoginTest3">
+        <methods>
+          <include name="initChromeBrowser"/>
+          <include name="getScreenshot"/>
+          <include name="googleLogin"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.yair_f.globesweb.GoogleLoginTest3 -->
+      <class name="com.yair_f.globesweb.WrongPasswordTest11">
+        <methods>
+          <include name="initChromeBrowser"/>
+          <include name="getScreenshot"/>
+          <include name="wrongPassword" invocation-numbers="0"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.yair_f.globesweb.WrongPasswordTest11 -->
+      <class name="com.yair_f.globesweb.AddArticleToSaveListTest7">
+        <methods>
+          <include name="initChromeBrowser"/>
+          <include name="getScreenshot"/>
+          <include name="closeSession"/>
+          <include name="addArticle"/>
+        </methods>
+      </class> <!-- com.yair_f.globesweb.AddArticleToSaveListTest7 -->
+    </classes>
+  </test> <!-- sanity(failed) -->
+</suite> <!-- Failed suite [Globes Automation] -->
